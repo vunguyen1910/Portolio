@@ -13,7 +13,7 @@ export default function MasterHead() {
                   <Col sm="6" md="5">
                     <div className="about-img">
                       <img
-                        src="./img/avata.jpg"
+                        src={require(`../img/IMG_8995.jpg`)}
                         className="img-fluid rounded b-shadow-a"
                       />
                     </div>

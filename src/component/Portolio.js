@@ -15,7 +15,7 @@ export default function Portolio() {
       <Row>
         <Col md="6">
           <div className="work-box">
-            <img src="src/component/Portolio1.PNG"></img>
+            <img src={require("../img/Portolio1.PNG")} className="img-project"></img>
             <div className="work-content">
               <Row>
                 <Col sm="8">
@@ -33,15 +33,35 @@ export default function Portolio() {
         </Col>
         <Col md="6">
           <div className="work-box">
-            <img src="Portolio2.PNG"></img>
+            <img src={require('../img/IMDB.png')} className="img-project"/>
             <div className="work-content">
               <Row>
                 <Col sm="8">
                   <h2 style={{ fontSize: "1.2rem" }}>The IMDB</h2>
                   <div class="w-more">
                     <Form>
-                        <a href="https://github.com/vunguyen1910/GarfieldIMDb" className="btn">Github</a>
-                        <a href="https://kind-kilby-1c358b.netlify.com/" className="btn">Demo</a>
+                        <a href="https://github.com/vunguyen1910/movies" className="btn">Github</a>
+                        <a href="https://romantic-bose-30bbcc.netlify.com/" className="btn">Demo</a>
+                    </Form>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col md="6">
+          <div className="work-box">
+            <img src={require("../img/learning music.png")} className="img-project"></img>
+            <div className="work-content">
+              <Row>
+                <Col sm="8">
+                  <h2 style={{ fontSize: "1.2rem" }}>Learning Music Online</h2>
+                  <div class="w-more">
+                    <Form>
+                        <a href="https://github.com/vunguyen1910/client-learning" className="btn">Github</a>
+                        <a href="https://learning-music-online.netlify.com" className="btn">Demo</a>
                     </Form>
                   </div>
                 </Col>
